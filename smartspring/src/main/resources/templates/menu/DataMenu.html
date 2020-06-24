@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Data Inputan Menu</title>
+</head>
+<body>
+
+<h1>INI DATA DARI INPUTAN MENU</h1>
+<div>
+		<ul>
+			<li>Kode Pasien : <a th:text="${kodePasienLempar}"></a></li>
+		</ul>
+		<ul>
+			<li>Nama Pasien : <a th:text="${namaPasienLempar}"></a></li>
+		</ul>
+		<ul>
+			<li>Kategori Pasien : <a th:text="${ketegoriPasienLempar}"></a></li>
+		</ul>
+		<ul>
+			<li>Tanggal Lahir : <a th:text="${tanggalLahirLempar}"></a></li>
+		</ul>
+		
+		<ul>
+			<li><a th:href="@{/menu/Menu1}">Back</a></li>
+
+		</ul>
+	</div>
+
+
+</body>
+</html>
